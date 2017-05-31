@@ -1,0 +1,55 @@
+snippet use
+	'use strict';
+snippet cfrrn
+	/**
+	* ${1}
+	* @param req
+	* @param res
+	* @param next
+	*/
+	
+snippet cfrr
+	/**
+	* ${1}
+	* @param req
+	* @param res
+	*/
+snippet cdm
+	// add debug information for middleware (printed in debug on err)
+snippet frrn
+	function(req, res, next){
+		${1}
+	}
+snippet frr
+	function(req, res){
+		${1}
+	}
+snippet describe
+	describe('${1}', function(){
+		${2}
+	});
+snippet it
+	it('should ${1}', function(done){
+		${2}
+	});
+snippet aseq
+	assert.equal(${1}, ${2});
+snippet as!eq
+	assert.notEqual(${1}, ${2});
+snippet log
+	console.log(${1});
+snippet werr
+	winston.err(${1});
+snippet winfo
+	winston.info(${1});
+snippet req
+	var ${1} = require('${2}');
+snippet rss
+	if (!req.routeStatus) req.routeStatus = [];
+	req.routeStatus.push('${1}');
+snippet rob
+	ResponseUtilities.buildResponseObject(ResponseUtilities.status.${1:status}, ${2:obj}, '${3:msg}', ${4:error});
+snippet funrrn
+	function ${1}(req, res, next){
+		${2}
+	}
