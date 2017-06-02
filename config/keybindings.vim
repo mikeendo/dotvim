@@ -8,7 +8,12 @@ nmap <leader>vs :source $MYVIMRC<cr>
 nmap <leader>] :cn<cr>
 nmap <leader>[ :p<cr>
 
-" insert lines below or above
+inoremap <esc> <nop>
+inoremap jk <esc>
+inoremap kj <esc>
+vnoremap <esc> <nop>
+vnoremap jk <esc>
+vnoremap kj <esc>
 
 " save file
 nnoremap <leader>s :w<cr>
