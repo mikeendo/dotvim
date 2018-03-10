@@ -8,16 +8,18 @@ nmap <leader>vs :source $MYVIMRC<cr>
 nmap <leader>] :cn<cr>
 nmap <leader>[ :p<cr>
 
-inoremap <esc> <nop>
-inoremap jk <esc>
-inoremap kj <esc>
-vnoremap <esc> <nop>
-vnoremap jk <esc>
-vnoremap kj <esc>
+" inoremap <esc> <nop>
+" inoremap jk <esc>
+" inoremap kj <esc>
+" vnoremap <esc> <nop>
+" vnoremap jk <esc>
+" vnoremap kj <esc>
 
 " save file
 nnoremap <leader>s :w<cr>
 nnoremap <leader>S :w<cr>
+nnoremap <leader>w :w<cr>
+nnoremap <leader>W :w<cr>
 
 " auto complete ending tag
 nnoremap <leader>> i</<c-x><c-o><esc>o<esc>

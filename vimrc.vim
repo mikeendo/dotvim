@@ -12,3 +12,4 @@ source ~/.vim/config/syntastic.vim
 
 " personal functions/commands
 source ~/.vim/config/case.vim
+source ~/.vim/config/constructor.vim

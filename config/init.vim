@@ -5,6 +5,8 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
+Plugin 'freitass/todo.txt-vim'
+Plugin 'chrisbra/NrrwRgn'
 Plugin 'elzr/vim-json'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'VundleVim/Vundle.vim'
@@ -36,6 +38,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'HerringtonDarkholme/yats.vim'
 Plugin 'Quramy/tsuquyomi'
 Plugin 'tacahiroy/ctrlp-funky'
+Plugin 'artur-shaik/vim-javacomplete2'
 
 
 " All of your Plugins must be added before the following line
